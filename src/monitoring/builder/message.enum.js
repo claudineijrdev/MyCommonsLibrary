@@ -1,0 +1,25 @@
+const messageEnum = {
+    API_KEY_INVALIDA: { key: "apiKeyInvalida", value: "$$$ - API key inválida" },
+    UNHANDLED_REJECTION: { key: "unhandledRejection", value: "Unhandled Rejection" },
+    UNCAUGHT_EXCEPTION: { key: "uncaughtException", value: "Uncaught Exception" },
+    DB_CONECTED: { key: "dbConected", value: "Servidor conectado ao $$$!" },
+    DB_ERROR: { key: "dbError", value: "Ocorreu um erro ao tentar fechar conexão do $$$:" },
+    SERVER_LISTEN: { key: "serverListen", value: "Servidor rodando na porta $$$" },
+    CONTROLLER_LOAD: { key: "controllerLoad", value: "Buscando $$$." },
+    CONTROLLER_EMPTY: { key: "controllerEmpty", value: "Busca por $$$ retornada vazia." },
+    CONTROLLER_LOAD_AGAIN: { key: "controllerLoadAgain", value: "Buscando novamente $$$." },
+    SERVICE_LOAD_BEFORE: { key: "serviceLoadBefore", value: "Disparando busca dos dados de $$$." },
+    SERVICE_LOAD_SUCCESS: { key: "serviceLoadSuccess", value: "Busca dos dados de $$$ realizada com sucesso." },
+    SERVICE_LOAD_ERROR: { key: "serviceLoadError", value: "Ocorreu um erro ao buscar os dados de $$$: " },
+    UPDATE_MONGO_LOAD_BEFORE: { key: "updateMongoLoadBefore", value: "Buscando $$$ para atualizar Mongo." },
+    UPDATE_MONGO_LODA_SUCCESS: { key: "updateMongoLoadSuccess", value: "Busca dos dados de $$$ para atualizar Mongo realizada com sucesso." },
+    UPDATE_MONGO_INSERT_BEFORE: { key: "updateMongoInsertBefore", value: "Atualizando Mongo com dados de $$$." },
+    UPDATE_MONGO_INSERT_SUCCESS: { key: "updateMongoInsertSuccess", value: "Atualização do Mongo com dados de $$$ realizada com sucesso." },
+    UPDATE_MONGO_EMPTY: { key: "updateMongoEmpty", value: "Busca por $$$ para atualização de Mongo retornada vazia." },
+    UPDATE_MONGO_LOAD_ERROR: { key: "updateMongoLoadError", value: "Ocorreu um erro ao atualizar Mongo com dados de $$$: " },
+    UPDATE_MONGO_CHECK_BEFORE: { key: "updateMongoCheckBefore", value: "Verificando necessidade de atualizar Mongo com dados de $$$." },
+    UPDATE_MONGO_CHECK_SUCCESS: { key: "updateMongoCheckSuccess", value: "Verificação de atualizar Mongo com dados de $$$ realizada com sucesso." },
+    SEND_FOR_UPDATE_BEFORE: { key: "sendForUpdateBefore", value: "Adicionando mensagens à fila de atualização de $$$." },
+    SEND_FOR_UPDATE_ERROR: { key: "sendForUpdateError", value: "Ocorreu um erro ao adicionar mensagens à fila de atualização de $$$: " }
+}
+module.exports = {messageEnum};
